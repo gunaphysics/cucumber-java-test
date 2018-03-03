@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.cucumber:cucumber-java:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/unknown/cucumber-java-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/unknown/cucumber-java-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/unknown/cucumber-java-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
