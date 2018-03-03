@@ -45,10 +45,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.20.1</version>
                 <configuration>
-                    <testSourceDirectory>s360UIAutomationCC/src/main/java</testSourceDirectory>
-                    <includes>
-                        <include>**/*RunCukesTest.java</include>
-                    </includes>
+                    <systemPropertyVariables>
+                        <cucumber.options>--plugin html:./reports/html --plugin junit:./reports/junit.xml</cucumber.options>
+                    </systemPropertyVariables>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
             <plugin>
