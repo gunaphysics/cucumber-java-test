@@ -13,6 +13,7 @@ public class StepDefs {
     public void getNumbers(int a, int b){
         this.x = a;
         this.y=b;
+        System.out.println("given");
     }
     @When("we add the numbers")
     public void add(){
